@@ -1,4 +1,9 @@
 # LawDual-Bench: A Dual-Task Benchmark and Chain-of-Thought Impact Study for Legal Outcomes
+
+<div align="center">
+  <img src="figs/lawdual bench.png" alt="LawDual Bench" width="60%">
+</div>
+
 With the rapid development of Large Language Models (LLMs) in legal applications, it has become increasingly urgent to systematically evaluate their **reasoning capabilities in legal document processing and judgment prediction**. Currently available legal benchmarks lack a unified evaluation framework and offer limited support for these two core tasks. To address this gap, we introduce **LawDual-Bench**, which fills a critical void in structured reasoning evaluation within Chinese legal NLP, and provides a solid foundation for evaluating and optimizing legal-domain LLM systems. For more details, please refer to our paper.
 
 ## 📄 Introduction

@@ -1,5 +1,9 @@
 # LawDual-Bench: A Dual-Task Benchmark and Chain-of-Thought Impact Study for Legal Outcomes
 
+<div align="center">
+  <img src="figs/lawdual bench.png" alt="LawDual Bench" width="60%">
+</div>
+
 随着大语言模型（LLMs）在法律应用中的快速发展，系统评估其在**法律文档处理**和**判决预测中的推理能力**变得尤为迫切。目前公开的法律测评基准缺少统一的评估架构，对这两个任务的支持并不好。为填补这一空白，我们提出了 **LawDual-Bench**，填补了中文法律自然语言处理领域中结构化推理评估的关键空白，并为法律垂类大模型系统的评估与优化提供了坚实基础。更多详情可查看我们的论文。
 
 
