@@ -1,4 +1,4 @@
-# LawDual-Bench: A Dual-Task Benchmark and Chain-of-Thought Impact Study for Legal Outcomes
+# LawDual-Bench: A Dual-Task Benchmark and Chain-of-Thought Impact Study for Legal Reasoning
 
 <div align="center">
   <img src="figs/lawdual bench.png" alt="LawDual Bench" width="60%">
@@ -62,7 +62,7 @@ LawDual-Bench 的数据主要来自以下三个公开渠道，聚焦于2005年�
 📌 评估指标的详细计算方式参见论文中第 4.1 节
 
 
-### Task 2：法律事实分析与判决预测（Legal Reasoning & Judgment Prediction）
+### Task 2：事实-裁判推理任务（Fact-to-Judgement Reasoning）
 
 此任务关注模型能否基于案情描述生成逻辑严密、结构完整的法律分析过程与最终判决，评估其推理质量与法律要素的覆盖情况。
 
@@ -118,7 +118,8 @@ LawDual-Bench 的数据主要来自以下三个公开渠道，聚焦于2005年�
 |                  | GPT-o3-mini               | 78.35%    | 61.59%        | 74.39%       | 66.19%   |
 
 ### 各模型在 Task 2（法律事实分析与判决预测）中标准输出与 CoT 输出对比
-![alt text](figs/task2_plot.png)
+![alt text](figs/task2_plot_relscore.png)
+![alt text](figs/task2_plot_llmscore.png)
 | Category         | Model               | Std Rel. | Std LLM | A (Std) | B (Std) | C (Std) | CoT Rel. | CoT LLM | A (CoT) | B (CoT) | C (CoT) | ΔRel. | ΔLLM  |
 |------------------|---------------------|----------|----------|---------|---------|---------|-----------|----------|---------|---------|---------|--------|--------|
 | **General LLMs** | Llama3-8B-Chinese   | 46.76%   | 29.63%   | 58      | 707     | 624     | 52.93%    | 60.37%   | 554     | 569     | 266     | 6.17%  | 30.74% |

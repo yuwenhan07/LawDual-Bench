@@ -1,4 +1,4 @@
-# LawDual-Bench: A Dual-Task Benchmark and Chain-of-Thought Impact Study for Legal Outcomes
+# LawDual-Bench: A Dual-Task Benchmark and Chain-of-Thought Impact Study for Legal Reasoning
 
 <div align="center">
   <img src="figs/lawdual bench.png" alt="LawDual Bench" width="60%">
@@ -65,7 +65,7 @@ This task aims to extract standardized key fields from legal case description pa
 
 📌 For detailed calculation of evaluation metrics, refer to Section 4.1 of the paper.
 
-### Task 2: Legal Reasoning & Judgment Prediction
+### Task 2: Fact-to-Judgement Reasoning
 
 This task evaluates whether a model can generate logically coherent, structurally complete legal analyses and final judgments based on case descriptions. It assesses the quality of reasoning and coverage of legal elements.
 
@@ -124,7 +124,8 @@ In addition, we provide a set of example outputs from different models under the
 
 ### Comparison of Standard Output vs. CoT Output for Each Model on Task 2 (Legal Reasoning & Judgment Prediction)
 
-![alt text](figs/task2_plot.png)
+![alt text](figs/task2_plot_relscore.png)
+![alt text](figs/task2_plot_llmscore.png)
 | Category         | Model               | Std Rel. | Std LLM | A (Std) | B (Std) | C (Std) | CoT Rel. | CoT LLM | A (CoT) | B (CoT) | C (CoT) | ΔRel. | ΔLLM  |
 |------------------|---------------------|----------|----------|---------|---------|---------|-----------|----------|---------|---------|---------|--------|--------|
 | **General LLMs** | Llama3-8B-Chinese   | 46.76%   | 29.63%   | 58      | 707     | 624     | 52.93%    | 60.37%   | 554     | 569     | 266     | 6.17%  | 30.74% |
