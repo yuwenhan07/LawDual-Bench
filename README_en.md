@@ -222,16 +222,12 @@ python script/evaluate_RelScore_task2.py \
 
 ## 📎 Citation
 
-If you use the LawDual-Bench dataset or code, please cite our paper:
+If you use the **LawDual-Bench** dataset or code, please cite our paper as follows:
+ 
+> *LawDual-Bench: A Dual-Task Benchmark and Chain-of-Thought Impact Study for Legal Outcomes*.  
+> Under review.
 
-```bibtex
-@inproceedings{LawDualBench2025,
-  title={LawDual-Bench: A Dual-Task Benchmark and Chain-of-Thought Impact Study for Legal Outcomes},
-  author={Anonymous},
-  booktitle={},
-  year={2025}
-}
-```
+**Note**: This paper is currently under peer review and has not been officially published yet. The citation information will be updated here once it is accepted.  
 
 ## 🛡️ Disclaimer
 

@@ -217,16 +217,13 @@ python script/evaluate_RelScore_task2.py \
 
 ## 📎 引用方式
 
-如果您使用了 LawDual-Bench 数据或代码，请引用我们的论文：
+如果您使用了 **LawDual-Bench** 数据集或代码，请引用我们的论文：
 
-```bibtex
-@inproceedings{LawDualBench2025,
-  title={LawDual-Bench: A Dual-Task Benchmark and Chain-of-Thought Impact Study for Legal Outcomes},
-  author={Anonymous},
-  booktitle={},
-  year={2025}
-}
-```
+> *LawDual-Bench: A Dual-Task Benchmark and Chain-of-Thought Impact Study for Legal Outcomes*  
+> （论文正在审稿中）
+
+**注意**：该论文目前仍处于审稿阶段，尚未正式公开发表，发表后会在此更新。
+
 
 ## 🛡️ 声明
 
